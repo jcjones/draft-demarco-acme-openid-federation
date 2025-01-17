@@ -234,7 +234,7 @@ an X.509 Certificate.
 5. The Issuer MUST publish the metadata type `acme_provider` in its Entity
    Configuration, according to [Issuer Metadata](#issuer-metadata).
 
-6. The Certificate Issuer MAY be a Leaf, in these cases a specific Trust Mark
+6. The Certificate Issuer MAY be a Leaf Entity {{OPENID-FED}}, in these cases a specific Trust Mark
    enabling the issuance of X.509 Certificates within the federation MAY be
    issued by the Trust Anchor, or on behalf of it by an allowed Trust Mark
    Issuer as configured in the federation. When used, the Trust Mark MUST be
